@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria: #191919;
+    --cor-secundaria: #ECDBBA;
+    --cor-terciaria: #C84B31;
+    --cor-hover: #2D4263;
+    --cor-estilo: #46C2CB;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+}
+
+.body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.nome__curriculo{
+    display: flex;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding: 4.5%;
+    display: flex;
+    text-align: center;
+    justify-content: stretch;
+    width: 91%; 
+    flex-direction:column;
+    gap: 40px;
+   
+   
+}
+.informacoes__contato{
+    font-size: 1rem;
+    font-family: var(--font-secundaria);
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+}
+
+.conteudo{
+    display: flex;
+    gap: 50px;
+    
+}
+
+.conteudo__subtitulos{
+    display: flex;
+    justify-content: center;
+    width: 460px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 10px 30px 0px;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--font-secundaria);
+    gap: 10px;
+    color: #C84B31;
+    
+}
+
+.apresentacao__texto{
+    display: flex;
+    justify-content:center;
+    flex-direction:row ;
+    padding: 20px;
+    text-align:start;
+    gap: 170px;
+    border-top: 2px var(--cor-terciaria);
+}
+
+.divisao{
+    display: flex;
+    justify-content: center;
+}
