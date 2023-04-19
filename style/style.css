@@ -154,7 +154,6 @@ body {
     font-size: 1.5rem;
     font-family: var(--font-secundaria);
     display: flex;
-    justify-content:space-evenly;
     flex-direction: column;
 }
 
